@@ -94,25 +94,25 @@
 	
         <distributionManagement>
 
-
-
             <repository>
               <id>nexus</id>
               <name>Landmark Technologies Releases Nexus Repository</name>
               <url>http://18.217.146.34:8081/repository/MVA-release/</url>
-
-
+              <username>admin</username>
+              <password>admin123</password>
             </repository>
 
             <snapshotRepository>
               <id>nexus</id>
               <name>Landmark Technologies Snapshot Nexus Repository </name>
               <url>http://18.217.146.34:8081/repository/MVA-snapshot/</url>
+	      <username>admin</username>
+              <password>admin123</password>
             </snapshotRepository>
         </distributionManagement>
 	
 	<build>
-		<finalName>boa-javaweb-app</finalName>
+		<finalName>maven-web-app</finalName>
 		
 		<plugins>
 			<plugin>
